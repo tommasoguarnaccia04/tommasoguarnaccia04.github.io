@@ -1,0 +1,109 @@
+media:
+  input: assets/uploads
+  output: /assets/uploads
+content:
+  - name: entries
+    label: Articles and other entries
+    type: collection
+    path: content/entries
+    format: json
+    exclude: [.gitkeep]
+    filename:
+      template: "{year}-{month}-{day}-{title}.json"
+      field: create
+    view:
+      primary: title
+      fields: [title, type, date, american_mind]
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: type
+        label: Section
+        type: select
+        required: true
+        options:
+          values:
+            - { value: essay, label: Essay }
+            - { value: research, label: Research note }
+            - { value: project, label: Project }
+            - { value: reading, label: Book review or reading note }
+            - { value: video, label: Video }
+      - name: date
+        label: Publication date
+        type: date
+        required: true
+        options:
+          time: false
+          format: yyyy-MM-dd
+      - name: summary
+        label: Summary
+        type: text
+        required: true
+      - name: american_mind
+        label: Include in The American Mind project
+        type: boolean
+      - name: link
+        label: Video URL (required for video entries)
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          format: markdown
+  - name: profile
+    label: Profile and education
+    type: file
+    path: content/profile.json
+    format: json
+    fields:
+      - { name: name, label: Name, type: string, required: true }
+      - { name: location, label: Location, type: string, required: true }
+      - { name: intro, label: Homepage introduction, type: text, required: true }
+      - { name: email, label: Public email, type: string }
+      - { name: portrait, label: Homepage photograph, type: image }
+      - name: links
+        label: Professional links
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Label, type: string, required: true }
+          - { name: url, label: URL, type: string, required: true }
+      - { name: about, label: About, type: text, required: true }
+      - name: education
+        label: Education
+        type: object
+        list: true
+        fields:
+          - { name: institution, label: Institution, type: string, required: true }
+          - { name: school, label: School, type: string }
+          - { name: degree, label: Degree, type: string, required: true }
+          - { name: date, label: Date, type: string, required: true }
+          - { name: details, label: Details, type: string }
+      - { name: coursework, label: Coursework, type: text, required: true }
+      - { name: methods, label: Methods, type: text, required: true }
+      - { name: languages, label: Languages, type: text, required: true }
+  - name: american_mind
+    label: The American Mind project
+    type: file
+    path: content/american-mind.json
+    format: json
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: summary, label: Summary, type: text, required: true }
+      - { name: overview, label: Overview, type: text, required: true }
+      - { name: questions, label: Research questions, type: string, list: true }
+      - name: reading
+        label: References
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string, required: true }
+          - { name: author, label: Author, type: string, required: true }
+          - { name: year, label: Year, type: string, required: true }
+          - { name: url, label: Reference URL, type: string, required: true }

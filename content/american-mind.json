@@ -1,0 +1,24 @@
+{
+  "title": "The American Mind: An Italian Perspective",
+  "summary": "An independent project on American higher education, political culture, and intellectual life, seen from Italy and the United States.",
+  "overview": "Allan Bloom’s 1987 critique of American higher education and Greg Lukianoff and Jonathan Haidt’s 2018 account of campus culture describe universities three decades apart. Reading them together raises a question: what changed in American intellectual life, and what did each book’s authors choose to notice?\n\nThe project begins with those two books and uses Italy as a point of comparison. Its scope includes how institutions handle disagreement, how political identity shapes what people take as evidence, and which claims about American universities hold up when tested against a specific European context.",
+  "questions": [
+    "What do Bloom, Lukianoff, and Haidt each think a university is for?",
+    "How do intellectual disagreement and political identity interact on American campuses?",
+    "Which differences between Italy and the United States reflect education systems, and which reflect broader political culture?"
+  ],
+  "reading": [
+    {
+      "title": "The Closing of the American Mind",
+      "author": "Allan Bloom",
+      "year": "1987",
+      "url": "https://www.simonandschuster.com/books/Closing-of-the-American-Mind/Andrew-Ferguson/9781451683202"
+    },
+    {
+      "title": "The Coddling of the American Mind",
+      "author": "Greg Lukianoff and Jonathan Haidt",
+      "year": "2018",
+      "url": "https://www.penguinrandomhouse.com/books/557315/the-coddling-of-the-american-mind-by-greg-lukianoff-and-jonathan-haidt/"
+    }
+  ]
+}

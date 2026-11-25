@@ -1,0 +1,28 @@
+{
+  "name": "Tommaso Guarnaccia",
+  "location": "Tempe, Arizona",
+  "intro": "I’m an Italian graduate student studying entrepreneurship and innovation at Arizona State University. My work and reading span political philosophy, economics, psychology, and public policy.",
+  "email": "tommasoguarnaccia04@gmail.com",
+  "portrait": "",
+  "links": [],
+  "about": "I studied economics and management at Bocconi University in Milan before moving to Arizona for graduate school. My undergraduate thesis looked at how financing and regulation shape access to psychiatric medicines. At Arizona State, I’ve worked with a graduate team on a proposal to improve specialty referral scheduling.\n\nI’m interested in how institutions shape the choices people can make, from the way a health system pays for medicine to the way a university handles disagreement. Philosophy, psychology, economics, neuroscience, and history give me different ways into those questions.\n\nI’m exploring work in research, public service, and entrepreneurship. My current independent project takes my experience of studying in Italy and the United States as a starting point for examining American intellectual life.",
+  "education": [
+    {
+      "institution": "Arizona State University",
+      "school": "W. P. Carey School of Business",
+      "degree": "MS in Entrepreneurship & Innovation",
+      "date": "Expected May 2027",
+      "details": "Tempe, Arizona"
+    },
+    {
+      "institution": "Bocconi University",
+      "school": "",
+      "degree": "BSc in Economics and Management for Arts, Culture and Communication",
+      "date": "July 2026",
+      "details": "Milan, Italy · Degree taught in English"
+    }
+  ],
+  "coursework": "Philosophy of Art, Logic and Methodology of Social Sciences, Public Finance, Statistics, Microeconomics, Macroeconomics, and Cultural Anthropology.",
+  "methods": "Structured literature review, comparative policy analysis, and R through RStudio in statistics coursework.",
+  "languages": "Italian, English, French, and Spanish."
+}

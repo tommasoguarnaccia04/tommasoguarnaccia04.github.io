@@ -1,0 +1,12 @@
+{
+  "thesis": {
+    "title": "Psychiatric medication access and healthcare financing",
+    "summary": "A Bocconi thesis on how reimbursement, pricing, and regulation shape access to psychiatric medicines.",
+    "body": "The thesis asks how health financing and pharmaceutical policy affect the availability of psychiatric medicines. It uses a structured literature review and compares Italy, the United States, and selected European countries.\n\nA case study of ADHD medications grounds the comparison. The thesis also applies utilitarian and Rawlsian frameworks to examine whose access improves under different policy choices and whose barriers remain."
+  },
+  "synvera": {
+    "title": "Synvera Flow",
+    "summary": "An ASU graduate team proposal for identifying mismatches between approved referrals and booked orthopedic appointments.",
+    "body": "The team examined how a patient can be booked with the wrong specialist after referral information changes. The proposal would compare the approved referral with the booked specialty and flag discrepancies for a scheduling coordinator.\n\nMy contributions included a proposed pilot evaluation and a financial model that identified the assumptions a clinic would need to test. The work was presented as a graduate team project."
+  }
+}
